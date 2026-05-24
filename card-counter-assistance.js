@@ -33,6 +33,6 @@ function cardCounter(card){
   }
   return result;
 }
-console.log(cardCounter(6));
+console.log(cardCounter(8));
 
 
