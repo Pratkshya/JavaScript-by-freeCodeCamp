@@ -1,5 +1,6 @@
 let lunches = [];
 
+//arr and lunches points to the same memory address
 function addLunchToEnd(arr, str){
   arr.push(str);
   console.log(`${str} added to the end of the lunch menu.`);
