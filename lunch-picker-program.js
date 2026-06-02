@@ -35,6 +35,7 @@ function removeFirstLunch(arr){
 }
 
 
-
+//test case 1
 console.log(addLunchToEnd(["pizza", "tacoos","coke"], "burger"));
+//test case 2
 console.log(removeLastLunch([]));
