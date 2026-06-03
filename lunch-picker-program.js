@@ -1,6 +1,5 @@
 let lunches = [];
 
-//arr and lunches points to the same memory address
 function addLunchToEnd(arr, str){
   arr.push(str);
   console.log(`${str} added to the end of the lunch menu.`);
@@ -34,8 +33,23 @@ function removeFirstLunch(arr){
   return arr;
 }
 
+function getRandomLunch(arr){
+  let randomIndex = Math.floor(Math.random() * arr.length);
+  if (arr.length){
+    console.log(`Randomly selected lunch: ${arr[randomIndex]}`)
+  }else{
+    console.log("No lunches available.");
+  }
+}
 
-//test case 1
+function showLunchMenu(arr){
+  if (arr.length > 0){
+    let menuItems = arr.join(", ");
+    console.log(`Menu items: ${menuItems}`);
+  }else{
+    console.log("The menu is empty.")
+  }
+}
+
 console.log(addLunchToEnd(["pizza", "tacoos","coke"], "burger"));
-//test case 2
 console.log(removeLastLunch([]));
