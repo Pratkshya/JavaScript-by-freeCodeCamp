@@ -44,7 +44,7 @@ function getRandomLunch(arr){
 
 function showLunchMenu(arr){
   if (arr.length > 0){
-    let menuItems = arr.join(", ");
+    let menuItems = arr.join(", "); //seperates with a comma and a space
     console.log(`Menu items: ${menuItems}`);
   }else{
     console.log("The menu is empty.")
