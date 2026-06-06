@@ -25,6 +25,6 @@ function golfScore(par, strokes){
   
 }
 
-//test cases
+//2 test cases
 console.log(golfScore(1, 1));
 console.log(golfScore(3, 2));
