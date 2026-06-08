@@ -1,3 +1,4 @@
+//list
 const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 function golfScore(par, strokes){
      if(strokes === 1){
