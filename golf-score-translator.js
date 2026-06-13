@@ -27,7 +27,7 @@ function golfScore(par, strokes){
      }
   
 }
-
+//change this data
 //use these cases to verify the result
 console.log(golfScore(1, 1));
 console.log(golfScore(3, 2));
